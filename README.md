@@ -1,6 +1,6 @@
 # Cross-project prediction of Java code smells on SmellyCode++
 
-Code, split manifest and outputs for the paper *A Study on Cross-Project Prediction of Java Code Smells Using Classical Machine-Learning Models* (V. I. Nefolovhodwe, Durban University of Technology, 2026).
+Code, split manifest and outputs for the paper *A Study on Cross-Project Prediction of Java Code Smells Using Classical Machine-Learning Models* 
 
 The pipeline compares Random Forest, Logistic Regression and XGBoost (one binary classifier per smell) under project-grouped validation. Nothing is fitted before the split, every data-dependent step is re-fitted inside training folds, and the frozen models are scored once on 18 test projects.
 
